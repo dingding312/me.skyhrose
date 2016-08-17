@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--<typeAliases>-->
+        <!--&lt;!&ndash;POJO 类的所在package，默认类名为其Alias&ndash;&gt;-->
+        <!--<package name="sbeat.user.model"/>-->
+    <!--</typeAliases>-->
+    <mappers>
+        <!--映射文件所在的地方-->
+        <mapper resource="mapper/UserMapper.xml" />
+    </mappers>
+</configuration>
